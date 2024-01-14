@@ -1,0 +1,323 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  /* CSS */
+/************************** 
+Header Section code start
+**************************/
+.navbar-toggler {
+  background-color: white;
+}
+
+.header-section .nav-link {
+     margin-left: 0px;
+}
+
+.header-section .nav-link:hover{
+    background: none;
+}
+
+.header-section .content {
+    padding: 50px 0px;
+    text-align: center;
+}
+
+.header-section .content h1 {
+    font-size: 43px;
+    padding: 0px 29px;
+}
+
+.header-section .content p {
+  font-size: 16px;
+  padding: 0 20px;
+}
+
+.header-section .buttons {
+  padding-top: 30px;
+}
+
+.header-section .banner-img img {
+  width: 100%;
+  margin: 0;
+}
+
+/************************** 
+feature-section code start
+**************************/
+
+.feature-section {
+  padding: 60px 0 40px 0;
+}
+
+.feature-section .title p {
+  margin-bottom: 8px;
+}
+
+.feature-section .title h2 {
+  font-size: 32px;
+}
+
+.feature-section .title img {
+  padding-top: 15px;
+}
+
+.feature-section .feature {
+    margin-bottom: 60px;
+}
+
+.feature-section .feature img {
+  padding-bottom: 15px;
+}
+
+
+/************************** 
+beautiful-section code start
+**************************/
+
+.beautiful-section .phone {
+  margin: 0px;
+}
+
+.beautiful-section .phone img{
+  width: 100%;
+}
+
+.beautiful-section .details {
+  text-align: center;
+  padding-top: 46px;
+}
+
+.beautiful-section .details h2 {
+  font-size: 35px;
+  margin-top: 8px;
+}
+
+.beautiful-section .details .line {
+  padding: 15px 0 25px 0;
+}
+
+.beautiful-section .details p {
+  font-size: 16px;
+  margin: 0;
+  padding: 10px 16px 30px 16px;
+}
+
+.beautiful-section .details ul {
+  padding: 0;
+  text-align: left;
+  margin-left: 20px;
+}
+
+/************************** 
+super-section code start
+**************************/
+.super-section {
+  padding: 40px 0;
+}
+
+.super-section .details {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.super-section .details h2 {
+    font-size: 33px;
+}
+
+.super-section .details .line {
+    padding: 15px 0 25px 0;
+}
+
+.super-section .details p {
+    font-size: 20px;
+    line-height: 30px;
+    margin: 0;
+    padding-bottom: 15px;
+}
+
+.super-section .phone img {
+    width: 100%;
+    margin: 0;
+}
+
+/************************** 
+review-section code start
+**************************/
+.review-section .inner-part {
+    padding-bottom: 60px;
+}
+
+.review-section .inner-part p {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+    padding: 0px 12px;
+}
+
+.review-section .name-part {
+    margin-left: 12px;
+}
+
+.review-section .name-part .name p {
+    padding: 0;
+}
+
+.review-section .dot {
+    padding-top: 20px;
+}
+
+.review-section .dot ul {
+    text-align: center;
+    padding: 0;
+}
+
+/************************** 
+button-section code start
+**************************/
+.button-section {
+    padding: 30px 0;
+}
+
+.button-section .title {
+    text-align: center;
+}
+
+.button-section .title h2 {
+    font-size: 31px;
+    padding-bottom: 15px;
+}
+
+.button-section .buttons {
+    text-align: center;
+}
+
+
+/************************** 
+price-section code start
+**************************/
+.pricing-section .price-card {
+    margin-bottom: 60px;
+}
+
+/************************** 
+contact-section code start
+**************************/
+.contact-section .contact {
+    margin-bottom: 60px;
+}
+
+.contact-section .contact p {
+    padding-top: 10px;
+}
+
+/************************** 
+form-section code start
+**************************/
+.form-section .form-inner {
+  margin: 0;
+  margin-bottom: -70px;
+}
+
+.form-section .left input {
+    padding: 7px 10px;
+}
+
+.form-section .right textarea {
+    padding: 7px 10px;
+    padding-bottom: 100px;
+}
+
+.form-section .btn-primary {
+    padding: 10px 10px;
+    margin: 15px 0 0 0;
+}
+
+/************************** 
+footer-section code start
+**************************/
+.footer-section {
+    padding: 20px 0;
+}
+
+.footer-section .social-icon ul {
+    margin-bottom: 10px;
+    padding: 0;
+}
+
+.footer-section .social-icon ul li {
+    display: inline;
+    margin-left: 12px;
+    margin-right: 12px;
+    font-size: 25px;
+}
+
+.footer-section .copyrigh {
+    font-size: 10px;
+}
+
+
+
+
+}
+
+/*********** Md. Rubel Gazi **************/
